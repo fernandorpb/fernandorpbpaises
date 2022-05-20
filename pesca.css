@@ -1,0 +1,155 @@
+header{
+    display: flex;
+    background-color: brown;
+    /*text-align: center;
+    background-color: rgb(10, 128, 151);
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;*/
+    align-items: center;
+}
+.menu{
+    width: 700px;
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul{
+    list-style: none; /* sin circulos de viñetas*/
+}
+.principal >li{
+float: left;
+
+}.principal li a{
+    background-color: deepskyblue;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    font-size: 25px;
+    
+
+}
+.principal li a:hover{
+    background-color: burlywood;
+}
+.principal li ul{
+    display: none;
+    position: absolute; /* va a tener una posicion fija, NO SE MUEVE*/
+    min-width: 140px; /* tamaño hasta q se active*/
+}
+.principal li:hover>ul{ /* lo vuelvo a llamar */
+    display: block;
+
+}
+.principal li ul li{
+    position: relative;
+}
+.foto1{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 250px;
+     /*separacion vertical*/
+}
+.encabezado2{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+    color: brown;
+    
+}
+.encabezado2 h4{
+    font-size: 15px;
+}
+.encabezado2 h1{
+    font-size: 25px;
+}
+.encabezado {
+    
+    display: flex;
+}
+.encabezado a{
+    text-decoration: none;
+}
+.encabezado h1{
+    color: whitesmoke;
+}
+
+.logo{
+    
+    display:flex ;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-right:25px;
+}
+
+
+.organizar img{
+    display: block;
+    padding: 0px 20px 20px;
+    width: 400px;
+    height: 250px;
+}
+.organizar2 img{
+    display: block;
+    padding: 0px 20px 20px;
+    width: 400px;
+    height: 250px;
+    
+}
+.organizar3 img{
+    display: block;
+    padding: 0px 20px 20px;
+    width: 400px;
+    height: 250px;
+    
+}
+.parrafo3{
+    display: block;
+    font-size: 20px;
+    padding: 10px 82px;
+}
+.parrafo2{
+    display: block;
+    font-size: 20px;
+    padding: 10px 100px;
+}
+.parrafo1{
+    display: block;
+    font-size: 20px;
+    padding: 10px 80px;
+}
+.organizar3{
+    display: flex;
+    }
+.organizar2{
+        display: flex;
+        }
+.organizar{
+display: flex
+
+}
+.organizar h1{
+    color: brown;
+}
+.organizar3 h1{
+    color: brown;
+}
+footer{
+    background-color:black ;
+    text-align: left;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    flex-wrap: wrap;
+    display: block;
+    grid-area: footer;
+    
+    display: flex;
+}
